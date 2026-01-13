@@ -13,8 +13,9 @@ body {
 ul {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
+    gap: 34vw;
 }
 ul {
 	list-style: none;
@@ -156,7 +157,7 @@ h4 {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 26px;
-    width: 15vw;
+	width: 13vw;
 }
 table {
 	padding: 30px;
@@ -184,6 +185,8 @@ tbody td {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 26px;
+	padding-top: 20px;
+	padding-left: -5px;
 }
 .g {
 	color: #64f48a;
